@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Audrey";
+  src: url("/fonts/Audrey-Normal.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Elza";
+  src: url("/fonts/Elza-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --charcoal: 200 18% 22%;
+  --platinum: 0 0% 86%;
+  --white: 0 0% 100%;
+  --black: 300 5% 7%;
+
+  --background: var(--white);
+  --foreground: var(--black);
+
+  --primary: var(--charcoal);
+  --primary-foreground: var(--white);
+
+  --secondary: var(--platinum);
+  --secondary-foreground: var(--black);
+
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+
+  --accent: var(--platinum);
+  --accent-foreground: var(--black);
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: var(--platinum);
+  --input: var(--platinum);
+  --ring: var(--charcoal);
+
+  --radius: 0.5rem;
+}
+
+body {
+  @apply bg-background text-foreground;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Audrey", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+p,
+span,
+div,
+a,
+button,
+input,
+textarea {
+  font-family: "Elza", sans-serif;
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.charcoal-bg {
+  background-color: #294349;
+}
+
+.charcoal-text {
+  color: #294349;
+}
+
+.platinum-bg {
+  background-color: #dbdbdb;
+}
+
+.platinum-text {
+  color: #dbdbdb;
+}
+
