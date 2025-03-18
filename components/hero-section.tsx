@@ -47,7 +47,7 @@ export function HeroSection() {
                 },
               }}
             >
-              <h1 className="text-4xl md:text-5xl font-bold font-serif text-white mb-6 leading-tight">
+              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
                 Defendemos seus direitos com excelência
               </h1>
             </motion.div>
@@ -104,7 +104,7 @@ export function HeroSection() {
           >
             <div className="relative h-[500px] w-full">
               <Image
-                src="/hero.png"
+                src="/2.png"
                 alt="Marco Marrafon Advocacia"
                 fill
                 className="object-contain"

@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Roboto, Noto_Serif_Display } from "next/font/google"
+import { Montserrat, Noto_Serif_Display } from "next/font/google"
 import "./globals.css"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
@@ -15,7 +15,7 @@ const notoSerifDisplay = Noto_Serif_Display({
 })
 
 // Roboto font
-const robotoFont = Roboto({
+const robotoFont = Montserrat({
   weight: ["100", "300", "400", "500", "700"],
   style: ["normal", "italic"],
   subsets: ["latin"],

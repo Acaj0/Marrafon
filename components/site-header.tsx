@@ -57,7 +57,7 @@ export function SiteHeader() {
               key={item.name}
               href={item.href}
               className={cn(
-                "transition-colors font-serif font-bold",
+                "transition-colors  font-semibold",
                 scrolled ? "text-[#294349] hover:text-[#294349]/80" : "text-white hover:text-white/80",
               )}
             >
