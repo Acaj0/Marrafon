@@ -47,7 +47,7 @@ export function HeroSection() {
                 },
               }}
             >
-              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+              <h1 className="text-4xl md:text-5xl font-bold font-serif text-white mb-6 leading-tight">
                 Defendemos seus direitos com excelência
               </h1>
             </motion.div>
@@ -82,7 +82,7 @@ export function HeroSection() {
                 },
               }}
             >
-              <Button className="bg-white text-[#294349] hover:bg-white/90 text-lg px-8 py-6">
+              <Button className="bg-white text-[#294349] font-normal hover:bg-white/90 text-lg px-8 py-6">
                 Fale com um especialista agora
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>

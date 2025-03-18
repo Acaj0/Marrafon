@@ -13,7 +13,6 @@ const navItems = [
   { name: "Áreas de Atuação", href: "#areas" },
   { name: "Depoimentos", href: "#testimonials" },
   { name: "FAQ", href: "#faq" },
-  { name: "Contato", href: "#contact" },
 ]
 
 export function SiteHeader() {
@@ -58,7 +57,7 @@ export function SiteHeader() {
               key={item.name}
               href={item.href}
               className={cn(
-                "transition-colors font-medium",
+                "transition-colors font-serif font-bold",
                 scrolled ? "text-[#294349] hover:text-[#294349]/80" : "text-white hover:text-white/80",
               )}
             >

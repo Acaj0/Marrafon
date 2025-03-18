@@ -17,6 +17,10 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-roboto)"],
+        serif: ["var(--font-noto-serif)"],
+      },
       colors: {
         charcoal: "hsl(var(--charcoal))",
         platinum: "hsl(var(--platinum))",
